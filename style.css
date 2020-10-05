@@ -5,20 +5,20 @@
     
 }
 
-/*------ Header ------*/
+/*Header*/
 .header_main{
     padding-left: 2vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: white;
+    background-color: rgb(156, 154, 154);
     border-bottom: 3px solid black;
     height: 15vh;
 }
 
 .header_main img{
-    width: 6vw;
-    border-radius: 45px;
+    width: 10vw;
+    border-radius: 100px;
 }
 
 .header_main nav{
@@ -26,11 +26,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header_main nav a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     outline: none;
     font-size: 1.5vw;
     transition: 0.5s;
@@ -38,14 +39,14 @@
 
 .header_main nav a:hover{
     opacity: 0.7;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(255, 255, 255);
     transform: scale(1.2,1.2);
 }
-/*------ Header End ------*/
+/*Header Fim*/
 
-/*------ Section ------*/
+/*Section*/
 .section_main{
-    background-image: url(https://static.biologianet.com/2020/03/fita-quebra-cabecas.jpg);
+    background-image: url(/assets/10-coisas-que-deixam-as-criancas-felizes.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:100vw 70vh;
@@ -57,33 +58,35 @@
 }
 
 .section_main h1{
-    color: rgb(255, 8, 0);
-    text-shadow: 2px 2px 2px black;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
     text-transform: uppercase;
     font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section_main .line{
     width: 50vw;
     height: 1vh;
-    background-color:rgb(19, 81, 196);
+    background-color:black;
     margin: 3vw 0 3vw 0;
 }
 
 .section_main p{
     width: 65vw;
-    text-align: right;
+    text-align: left;
     font-size: 1.5vw;
-    text-shadow: 1px 1px 1px black;
-    color: rgb(255, 8, 0);
+    font-style:bold;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
-/*------ Section End ------ */
+/*Section Fim*/
 
-/*------ Footer ------*/
+/*Footer*/
 
 .footer_main{
     padding-left: 2vw;
-    border-top: 3px solid black;
+    border-top: 3px solid white;
     height: 15vh;
     display: flex;
     justify-content: space-evenly;
@@ -115,7 +118,7 @@
 
 .footer_main .contact a{
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-size: 1vw;
 }
 
@@ -131,4 +134,4 @@
     width: 2vw;
 }
 
-/*------ Fotter End ------ */
+/*Fotter Fim*/
