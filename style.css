@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*------ Header ------*/
+.header_main{
+    padding-left: 2vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid black;
+    height: 15vh;
+}
+
+.header_main img{
+    width: 6vw;
+    border-radius: 45px;
+}
+
+.header_main nav{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_main nav a{
+    text-decoration: none;
+    color: black;
+    outline: none;
+    font-size: 1.5vw;
+    transition: 0.5s;
+}
+
+.header_main nav a:hover{
+    opacity: 0.7;
+    border-top: 1px solid black;
+    transform: scale(1.2,1.2);
+}
+/*------ Header End ------*/
+
+/*------ Section ------*/
+.section_main{
+    background-image: url(https://static.biologianet.com/2020/03/fita-quebra-cabecas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100vw 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 2vw;
+    height: 70vh;
+}
+
+.section_main h1{
+    color: rgb(255, 8, 0);
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+
+.section_main .line{
+    width: 50vw;
+    height: 1vh;
+    background-color:rgb(19, 81, 196);
+    margin: 3vw 0 3vw 0;
+}
+
+.section_main p{
+    width: 65vw;
+    text-align: right;
+    font-size: 1.5vw;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(255, 8, 0);
+}
+/*------ Section End ------ */
+
+/*------ Footer ------*/
+
+.footer_main{
+    padding-left: 2vw;
+    border-top: 3px solid black;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_main ul{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.footer_main p{
+    font-size: 1vw;
+}
+
+.footer_main .contact{
+    display: flex;
+    align-items: center;
+}
+
+.footer_main .contact img{
+    margin-left:1vw;
+    margin-right: 1vw;
+    width: 2vw;
+}
+
+.footer_main .contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+.footer_main .socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_main .socials a img{
+    margin-left:1vw;
+    margin-right: 1vw;
+    width: 2vw;
+}
+
+/*------ Fotter End ------ */
